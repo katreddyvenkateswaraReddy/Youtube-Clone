@@ -1,4 +1,4 @@
-let API_key = "AIzaSyAwoLey4IDTAJYFhXW9XouU0dvsNVYHPDM";
+let API_key = "AIzaSyDo5JKPwOaNz1cEGzteZ3muHeXJDMBqIJg";
 let baseURL = "https://www.googleapis.com/youtube/v3";
 let currentPage = 1;
 let isLoadingMore = false;
@@ -189,15 +189,15 @@ function navigateToVideoDetails(
   subscribersCount,
   channelId
 ) {
-  document.cookie = `id=${videoId}; path=/video-details.html`;
-  document.cookie = `videoTitle=${videoTitle}; path=/video-details.html`;
-  document.cookie = `viewsCount=${viewCount}; path=/video-details.html`;
-  document.cookie = `uploadDate=${uploadDate}; path=/video-details.html`;
-  document.cookie = `likesCount=${likesCount}; path=/video-details.html`;
-  document.cookie = `channelLogo=${channelLogo}; path=/video-details.html`;
-  document.cookie = `channelName=${channelName}; path=/video-details.html`;
-  document.cookie = `subscribersCount=${subscribersCount}; path=/video-details.html`;
-  document.cookie = `channelId=${channelId}; path=/video-details.html`;
+   document.cookie = `id=${videoId}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `videoTitle=${videoTitle}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `viewsCount=${viewCount}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `uploadDate=${uploadDate}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `likesCount=${likesCount}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `channelLogo=${channelLogo}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `channelName=${channelName}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `subscribersCount=${subscribersCount}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
+  document.cookie = `channelId=${channelId}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/video-details.html`;
   window.location.href = "./video-details.html";
 }
 
