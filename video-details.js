@@ -1,4 +1,4 @@
-let API_key = "AIzaSyAwoLey4IDTAJYFhXW9XouU0dvsNVYHPDM";
+let API_key = "AIzaSyDo5JKPwOaNz1cEGzteZ3muHeXJDMBqIJg";
 let baseURL = "https://www.googleapis.com/youtube/v3";
 
 const videoInfo = document.getElementById("video-info");
@@ -340,10 +340,10 @@ async function renderVideoDetails(cookiesData) {
 }
 
 function navigateToChannelPage(authorImage, authorName, channelId) {
-  document.cookie = `authorImage=${authorImage}; path=https://amir0707k.github.io/YouTube-Clone/channelDetails.html`;
-  document.cookie = `authorName=${authorName}; path=https://amir0707k.github.io/YouTube-Clone/channelDetails.html`;
-  document.cookie = `channelId=${channelId}; path=https://amir0707k.github.io/YouTube-Clone/channelDetails.html`;
-
+  document.cookie = `authorImage=${authorImage}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/channelDetails.html`;
+  document.cookie = `authorName=${authorName}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/channelDetails.html`;
+  document.cookie = `channelId=${channelId}; path=https://katreddyvenkateswarareddy.github.io/Youtube-Clone/channelDetails.html`;
+  
   window.location.href = `/channelDetails.html`;
 }
 
